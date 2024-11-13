@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Demo steelRoot</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<body>
+
+<div class="wrapper">
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<div class="header__row">
+					<div class="header__title"><span class="yellow">We</span> create<br>Awesome Games</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li><a href="#about" class="header__link">About</a></li>
+							<li><a href="#dev" class="header__link">Development</a></li>
+							<li><a href="#projects" class="header__link">Projects</a></li>
+							<li><a href="#blog" class="header__link">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="content">
+		<section class="about" id="about">
+			<div class="about__body">
+				<div class="about__row">
+					<article class="about__column item-about">
+						<div class="item-about__body">
+							<h2 class="item-about__subtitle">About</h2>
+							<h1 class="item-about__titile">Sublime</h1>
+						</div>
+					</article>
+					<article class="about__column item-about">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+						<p>Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__container">
+				<div class="services__body">
+					<div class="services__row">
+						<article class="services__column item-services">
+							<div class="item-services__body">
+								<div class="item-services__icon"><img src="img/gamepad.svg" alt=""></div>
+								<h6 class="item-services__title">App Development</h6>
+								<div class="item-services__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+								</div>
+							</div>
+						</article>
+						<article class="services__column item-services">
+							<div class="item-services__body">
+								<div class="item-services__icon"><img src="img/gamepad.svg" alt=""></div>
+								<h6 class="item-services__title">Game Design</h6>
+								<div class="item-services__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla
+										pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla
+										pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+								</div>
+							</div>
+						</article>
+						<article class="services__column item-services">
+							<div class="item-services__body">
+								<div class="item-services__icon"><img src="img/gamepad.svg" alt=""></div>
+								<h6 class="item-services__title">Content Creation</h6>
+								<div class="item-services__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla
+										pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla
+										pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<div class="projects__body">
+
+				<h2>Featured <span class="big-letter">P</span>rojects</h2>
+				
+				<div id="myBtnContainer">
+					<button class="btn active" onclick="filterSelection('all')">All Works</button>
+					<button class="btn" onclick="filterSelection('games')">Games</button>
+					<button class="btn" onclick="filterSelection('applications')">APPLICATIONS</button>
+					<button class="btn" onclick="filterSelection('dev')">CONTENT DEVELOPMENT</button>
+				</div>
+				
+				<!-- Portfolio Gallery Grid -->
+				<div class="row">
+					<div class="column games">
+						<div class="contents">
+							<a href="#" class="projects__link"><img src="img/projects1.png" alt="Mountains"></a>
+						</div>
+					</div>
+					<div class="column games">
+						<div class="contents">
+							<a href="#"><img src="img/projects2.png" alt="Lights"></a>
+						</div>
+					</div>
+					<div class="column games">
+						<div class="contents">
+							<a href="#"><img src="img/projects3.png" alt="Nature"></a>
+						</div>
+					</div>
+					<div class="column games">
+						<div class="contents">
+							<a href="#"><img src="img/projects9.png" alt="Car"></a>
+						</div>
+					</div>
+				
+					<div class="column applications">
+						<div class="contents">
+							<a href="#"><img src="img/projects4.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column applications">
+						<div class="contents">
+							<a href="#"><img src="img/projects5.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column applications">
+						<div class="contents">
+							<a href="#"><img src="img/projects6.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column applications">
+						<div class="contents">
+							<a href="#"><img src="img/projects10.png" alt="Car"></a>
+						</div>
+					</div>
+				
+					<div class="column dev">
+						<div class="contents">
+							<a href="#"><img src="img/projects7.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column dev">
+						<div class="contents">
+							<a href="#"><img src="img/projects8.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column dev">
+						<div class="contents">
+							<a href="#"><img src="img/projects11.png" alt="Car"></a>
+						</div>
+					</div>
+					<div class="column dev">
+						<div class="contents">
+							<a href="#"><img src="img/projects12.png" alt="Car"></a>
+						</div>
+					</div>
+					
+					<!-- END GRID -->
+				</div>
+
+			</div>
+		</section>
+		<section class="strategic">
+			<div class="strategic__container">
+				<div class="strategic__body">
+					<h2 class="strategic__title">Strategic <span class="big-letter">P</span>rocess</h2>
+					<p class="strategic__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+					<p class="strategic__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu.</p>
+				</div>
+				<div class="strategic__row">
+					<article class="strategic__column items-strategic">
+						<div class="items-strategic__foto"><img src="img/strategic-1.png" alt=""></div>
+						<div class="items-strategic__body">
+							<div class="items-strategic__title">Our <span class="big-letter">P</span>rocess</div>
+							<div class="items-strategic__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</div>
+							<div class="items-strategic__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu</div>
+						</div>
+					</article>
+					<article class="strategic__column items-strategic">
+						<div class="items-strategic__body">
+							<div class="items-strategic__title">Method</div>
+							<div class="items-strategic__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</div>
+							<div class="items-strategic__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt</div>
+						</div>
+						<div class="items-strategic__foto"><img src="img/strategic-2.png" alt=""></div>
+					</article>
+					<article class="strategic__column items-strategic">
+						<div class="items-strategic__foto"><img src="img/strategic-3.png" alt=""></div>
+						<div class="items-strategic__body">
+							<div class="items-strategic__title">Outcome</div>
+							<div class="items-strategic__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna</div>
+							<div class="items-strategic__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="facility" id="dev">
+			<div class="facility__body">
+				<div class="facility__row">
+					<article class="facility__column-left">
+						<div class="item-facility__body">
+							<h2 class="item-facility__title">Services <span class="big-letter">P</span>rovided</h2>
+						</div>
+					</article>
+					<article class="facility__column-right items-facility">
+						<div class="items-facility__row">
+							<article class="items-facility__column item-facility">
+								<h3 class="items-facility__title">App Development</h3>
+								<p class="items-facility__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt  Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt </p>
+							</article>
+							<article class="items-facility__column item-facility">
+								<h3 class="items-facility__title">Game Development</h3>
+								<p class="items-facility__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt  Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt </p>
+							</article>
+							<article class="items-facility__column item-facility">
+								<h3 class="items-facility__title">App Design</h3>
+								<p class="items-facility__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt  Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt </p>
+							</article>
+							<article class="items-facility__column item-facility">
+								<h3 class="items-facility__title">Game Design</h3>
+								<p class="items-facility__text">Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt  Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt </p>
+							</article>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="team">
+			<div class="team__body">
+				<div class="team__container">
+					<div class="team__row">
+						<article class="team__column-left item-team">
+							<h2 class="item-team__title">Our <span class="big-letter">T</span>eam</h2>
+						</article>
+						<article class="team__column-right items-team">
+							<div class="items-team__direction">
+								<div class="items-team__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.</p>
+									<p>Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt</p>
+								</div>
+								<div class="items-team__row team-foto">
+									<article class="team-foto__column">
+										<div class="team-foto__icon"><img src="img/team1.png" alt=""></div>
+										<h4 class="team-foto__title">John Doe</h4>
+										<div class="team-foto__subtitle">CoFounder / CEO</div>
+									</article>
+									<article class="team-foto__column">
+										<div class="team-foto__icon"><img src="img/team2.png" alt=""></div>
+										<h4 class="team-foto__title">John Doe</h4>
+										<div class="team-foto__subtitle">process Manager</div>
+									</article>
+									<article class="team-foto__column">
+										<div class="team-foto__icon"><img src="img/team3.png" alt=""></div>
+										<h4 class="team-foto__title">John Doe</h4>
+										<div class="team-foto__subtitle">Sales President</div>
+									</article>
+									<article class="team-foto__column">
+										<div class="team-foto__icon"><img src="img/team4.png" alt=""></div>
+										<h4 class="team-foto__title">John Doe</h4>
+										<div class="team-foto__subtitle">Developer</div>
+									</article>
+								</div>
+							</div>
+						</article>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="testimonials">
+			<div class="testimonials__container">
+				<article class="testimonials__body">
+					<h2 class="testimonials__title">Testimonials</h2>
+				</article>
+				<div class="testimonials__row">
+					<article class="testimonials__column-left items-testimonials">
+						<div class="items-testimonials__text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna</p>
+							<p>Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt</p>
+						</div>
+					</article>
+					<article class="testimonials__column-right items-testimonials">
+						<div class="items-testimonials__direction">
+							<div class="items-testimonials__foto"><img src="img/testimonials-foto.png" alt=""></div>
+							<h4 class="items-testimonials__title">John Doe</h4>
+							<p class="items-testimonials__subtitle">CoFounder / CEO</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="blog" id="blog">
+			<div class="blog__container">
+				<div class="blog__body">
+					<div class="blog__row">
+						<article class="blog__column-left items-blog">
+							<h2 class="items-blog__title">Blogs</h2>
+						</article>
+						<article class="blog__column-right items-blog">
+							<div class="items-blog__row">
+								<article class="items-blog__column item-blog">
+									<div class="item-blog__foto"><div class="hover"><a href="#"><img src="img/blogs-1.png" alt=""></a></div></div>
+									<time datetime="2016-07-04" class="item-blog__data">July 4th 2016</time>
+									<h4 class="item-blog__title">Lorem ipsum dolor sit amet,</h4>
+									<p class="item-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim.</p>
+								</article>
+								<article class="items-blog__column item-blog">
+									<div class="item-blog__foto"><div class="hover"><a href="#"><img src="img/blogs-2.png" alt=""></a></div></div>
+									<time datetime="2016-06-20" class="item-blog__data">June 20th 2016</time>
+									<h4 class="item-blog__title">Lorem ipsum dolor sit amet,</h4>
+									<p class="item-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie
+										dignissim.</p>
+								</article>
+								<article class="items-blog__column item-blog">
+									<div class="item-blog__foto"><div class="hover"><a href="#"><img src="img/blogs-3.png" alt=""></a></div></div>
+									<time datetime="2016-05-06" class="item-blog__data">May 6th 2016</time>
+									<h4 class="item-blog__title">Lorem ipsum dolor sit amet,</h4>
+									<p class="item-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie
+										dignissim.</p>
+								</article>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="contact__body">
+				<div class="contact__row">
+					<article class="contact__column-left items-contact">
+						<div class="items-contact__googlemaps">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98593.05097484298!2d-0.43019184329826077!3d39.4459896745396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6047d93a025c57%3A0xfb6c8e801c77407f!2sPlatja%20de%20la%20Patacona!5e0!3m2!1sru!2sua!4v1731425599759!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</article>
+					<article class="contact__column-right items-contact">
+					<div class="items-contact__body">
+						<h2 class="items-contact__title">Contact <span class="big-letter">U</span>s</h2>
+						<form action="#" method="post" enctype="multipart/form-data" class="item-contact">
+							<div class="item-contact__name">
+								<input tabindex="1" placeholder="Your Name" type="text">
+							</div>
+							<div class="item-contact__address">
+								<input tabindex="2" placeholder="Mobile" type="tel">
+								<input tabindex="3" placeholder="Email" type="email">
+							</div>
+							<div class="item-contact__message">
+								<textarea placeholder="Your Message" name="text" style="resize: none"></textarea>
+							</div>
+							<div class="item-contact__button">
+								<button type="submit">Send</button>
+							</div>
+						</form>
+						<article class="item-contact__map map-address">
+							<h4 class="map-address__title">Location Map</h4>
+							<div class="map-address__info">
+								<address>Address: <span>Hill Mist garden, Pune, 411 048. India</span></address>
+								<address>Phone: <span>+91 12534 67890</span></address>
+								<address>Email: <span>firkho@firkho.com</span></address>
+							</div>
+						</article>
+						<article class="items-contact__icons icons-item">
+							<div class="icons-item__row">
+								<div class="icon-item"><a href="#"><img src="img/facebook.svg" alt=""></a></div>
+								<div class="icon-item"><a href="#"><img src="img/linkedin.svg" alt=""></a></div>
+								<div class="icon-item"><a href="#"><img src="img/twitter.svg" alt=""></a></div>
+							</div>
+						</article>
+					</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+	<footer class="footer">
+		<article class="footer__body">
+			<h5 class="footer__title"> Site by <span class="big-letter">S</span>teel<span class="big-letter">R</span>oot</h5>
+		</article>
+	</footer>
+</div>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="js/script.js"></script>
